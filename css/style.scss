@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    opacity: .9;
+    background-color: black;
+    width: 100%;
+    img{
+        cursor: pointer;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        li{
+            color: white;
+            list-style: none;
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color:white;
+                &:hover{
+                    color:red;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+    .ic{
+        i{
+           color: white;
+            cursor: pointer;
+            &:hover{
+                color: red;
+                transition: 0.3s;
+            }
+       }
+    }
+
+}
+.middle-center {
+    padding: 20rem 0;
+    position: relative;
+    z-index: 15;
+
+}
+#top{
+    position: relative;
+    background-image: url(../image/mercedes-2.jpg);
+    background-size: cover;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        background-color: black;
+        opacity: .3;
+
+    }
+    h1{
+        color: rgb(253, 63, 63);
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    h2{
+        color: white;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+}
+#official{
+    padding-bottom: 55px;
+    position: relative;
+    background-image: url(../image/269.jpg);
+    background-size: cover;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        background-color: black;
+        opacity: .8;
+    }
+    .air{
+        position: relative;
+        z-index: 5;
+        .im{
+            text-align: center;
+            img{
+                width: 20%;
+                transition: 0.2s;
+                &:hover{
+                    transform: scale(1.1); 
+                 }
+        }
+      }
+        h3{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            padding-top: 35px;
+        }
+        p{
+            color: rgb(151, 150, 150);
+            text-align: center;
+            font-weight: 400;
+            padding-top: 15px;
+        }
+        .bt{
+            text-align: center;
+            button{
+                padding: 15px;
+                width:35%;
+                border-radius: 5px;
+                border: none;
+                background-color: rgb(212, 62, 62);
+                color: #fff;
+                &:hover{
+                    color: red;
+                    box-shadow: 0 0 20px 8px rgb(122, 2, 2);
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+#carsbody{
+    padding-bottom: 75px;
+    background-color: black;
+    .cars{
+        text-align: center;
+        h2{
+            color: #fff;
+            font-weight: 700;
+            img{
+                width: 4%;
+            }
+        }
+        p{
+            color:rgb(151, 150, 150) ;
+        }
+    }
+    .car{
+        border: 1px solid white;
+        cursor: pointer;
+        .dt{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                color: rgb(255, 20, 20);
+                font-weight: 700;
+            }
+            p{
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+}
+#autocar{
+    padding-bottom: 70px;
+    position: relative;
+    background-image: url(../image/269.jpg);
+    background-size: cover;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        background-color: black;
+        opacity: .8;
+    }
+    .long{
+        position: relative;
+        z-index: 5;
+        h2{
+            color: rgb(151, 150, 150);
+            font-size: 20px;
+        }
+        p{
+            color: #fff;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+    .dealer{
+        position: relative;
+        z-index: 5;
+        img{
+            width: 20%;
+        }
+        h2{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 750;
+            padding: 15px;
+        }
+    }
+    p{
+        color: rgb(190, 180, 180);
+        position: relative;
+        z-index: 5;
+        padding-top: 10px;
+    }
+}
+#subscribe{
+    background-color: black;
+    .offer{
+        h1{
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        p{
+            color: rgb(151, 150, 150);
+
+        }
+    }
+    .inp{
+        input{
+            background: none;
+            // border: none;
+            border-radius: 10px;
+            width: 60%;
+            padding: 15px;
+        }
+        button{
+            background-color: rgb(221, 47, 47);
+            padding: 15px;
+            width: 20%;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            &:hover{
+                box-shadow: 0 0 20px 8px rgb(122, 2, 2);
+                transition: 0.3s;
+            }
+        }
+    }
+}

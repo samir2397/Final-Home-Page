@@ -1,0 +1,302 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+#header {
+  opacity: .9;
+  background-color: black;
+  width: 100%;
+}
+
+#header img {
+  cursor: pointer;
+  width: 100%;
+}
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header ul li {
+  color: white;
+  list-style: none;
+  padding: 10px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#header ul li a:hover {
+  color: red;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#header .ic i {
+  color: white;
+  cursor: pointer;
+}
+
+#header .ic i:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.middle-center {
+  padding: 20rem 0;
+  position: relative;
+  z-index: 15;
+}
+
+#top {
+  position: relative;
+  background-image: url(../image/mercedes-2.jpg);
+  background-size: cover;
+}
+
+#top::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .3;
+}
+
+#top h1 {
+  color: #fd3f3f;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+#top h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+#official {
+  padding-bottom: 55px;
+  position: relative;
+  background-image: url(../image/269.jpg);
+  background-size: cover;
+}
+
+#official::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .8;
+}
+
+#official .air {
+  position: relative;
+  z-index: 5;
+}
+
+#official .air .im {
+  text-align: center;
+}
+
+#official .air .im img {
+  width: 20%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#official .air .im img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#official .air h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 35px;
+}
+
+#official .air p {
+  color: #979696;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+#official .air .bt {
+  text-align: center;
+}
+
+#official .air .bt button {
+  padding: 15px;
+  width: 35%;
+  border-radius: 5px;
+  border: none;
+  background-color: #d43e3e;
+  color: #fff;
+}
+
+#official .air .bt button:hover {
+  color: red;
+  -webkit-box-shadow: 0 0 20px 8px #7a0202;
+          box-shadow: 0 0 20px 8px #7a0202;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#carsbody {
+  padding-bottom: 75px;
+  background-color: black;
+}
+
+#carsbody .cars {
+  text-align: center;
+}
+
+#carsbody .cars h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#carsbody .cars h2 img {
+  width: 4%;
+}
+
+#carsbody .cars p {
+  color: #979696;
+}
+
+#carsbody .car {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#carsbody .car .dt {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#carsbody .car .dt span {
+  color: #ff1414;
+  font-weight: 700;
+}
+
+#carsbody .car .dt p {
+  color: #fff;
+  font-weight: 600;
+}
+
+#autocar {
+  padding-bottom: 70px;
+  position: relative;
+  background-image: url(../image/269.jpg);
+  background-size: cover;
+}
+
+#autocar::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .8;
+}
+
+#autocar .long {
+  position: relative;
+  z-index: 5;
+}
+
+#autocar .long h2 {
+  color: #979696;
+  font-size: 20px;
+}
+
+#autocar .long p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#autocar .dealer {
+  position: relative;
+  z-index: 5;
+}
+
+#autocar .dealer img {
+  width: 20%;
+}
+
+#autocar .dealer h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 750;
+  padding: 15px;
+}
+
+#autocar p {
+  color: #beb4b4;
+  position: relative;
+  z-index: 5;
+  padding-top: 10px;
+}
+
+#subscribe {
+  background-color: black;
+}
+
+#subscribe .offer h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#subscribe .offer p {
+  color: #979696;
+}
+
+#subscribe .inp input {
+  background: none;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+}
+
+#subscribe .inp button {
+  background-color: #dd2f2f;
+  padding: 15px;
+  width: 20%;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#subscribe .inp button:hover {
+  -webkit-box-shadow: 0 0 20px 8px #7a0202;
+          box-shadow: 0 0 20px 8px #7a0202;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=style.css.map */
