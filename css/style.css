@@ -206,6 +206,18 @@
   font-weight: 600;
 }
 
+#carsbody .car img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#carsbody .car img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 #autocar {
   padding-bottom: 70px;
   position: relative;
@@ -264,6 +276,7 @@
 }
 
 #subscribe {
+  padding-bottom: 30px;
   background-color: black;
 }
 
@@ -298,5 +311,190 @@
           box-shadow: 0 0 20px 8px #7a0202;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+#salecars {
+  padding-bottom: 30px;
+  position: relative;
+  background-image: url(../image/269.jpg);
+  background-size: cover;
+}
+
+#salecars::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .8;
+}
+
+#salecars .sale {
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+#salecars .sale h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#salecars .sale h2 img {
+  width: 4%;
+}
+
+#salecars .sale p {
+  color: #979696;
+  text-align: center;
+}
+
+#slid {
+  padding-bottom: 100px;
+  position: relative;
+  background-image: url(../image/269.jpg);
+  background-size: cover;
+}
+
+#slid::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .8;
+}
+
+#slid .cart {
+  position: relative;
+  z-index: 5;
+}
+
+#slid .ph {
+  position: relative;
+  z-index: 5;
+  padding: 0 15px;
+}
+
+#slid .booked {
+  position: relative;
+  z-index: 5;
+}
+
+#slid .booked .filt {
+  color: #979696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  background-color: black;
+  padding: 15px;
+  width: 97%;
+}
+
+#slid .booked a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 70px;
+}
+
+#slid .booked a:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#news {
+  background-color: black;
+}
+
+#news .new h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#news .new h2 img {
+  width: 15%;
+}
+
+#news .new button {
+  padding: 15px;
+  background-color: #ff1414;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#news .new button:hover {
+  -webkit-box-shadow: 0 0 20px 8px #7a0202;
+          box-shadow: 0 0 20px 8px #7a0202;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#status {
+  background-color: black;
+}
+
+#status .stat .totam {
+  cursor: pointer;
+  position: relative;
+}
+
+#status .stat .totam:hover p {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#status .stat .totam:hover .sp {
+  display: block;
+}
+
+#status .stat .totam .dsn {
+  position: relative;
+}
+
+#status .stat .totam .dsn p {
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  font-size: 20px;
+}
+
+#status .stat .totam .dsn p:hover {
+  color: red;
+}
+
+#status .stat .totam .sp {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  padding: 10px;
+  display: none;
+}
+
+#status .stat .totam .sp span {
+  color: red;
+  padding: 20px;
+  width: 100%;
+  font-weight: 700;
+}
+
+#status .stat .totam .sp span:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
