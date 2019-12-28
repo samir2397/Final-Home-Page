@@ -410,3 +410,146 @@
         }
     }
 }
+#off{
+    background-color: black;
+    .offer{
+        text-align: center;
+        h2{
+            color: white;
+            font-weight: 700;
+            img{
+                width: 4%;
+            }
+        }
+        p{
+            color: rgb(138, 133, 133);
+        }
+    }
+}
+#speciall{
+    background-color: black;
+    padding-bottom: 50px;
+    .all{
+        .offersbl{
+            background-color: rgb(17, 17, 17);
+            .free{
+                padding:30px;
+                h1{
+                    color: white;
+                    font-weight: 700;
+                    padding: 10px;
+                    font-size: 25px;
+                }
+                span{
+                    color: rgb(255, 20, 20);
+                    font-weight: 650;
+                    padding: 10px;
+                }
+                p{
+                    color: rgb(212, 206, 206);
+                    padding: 10px;
+                }
+            }
+        }
+        .offersrd{
+            background-color: rgb(246, 46, 46);
+            .free{
+                padding:30px;
+                h1{
+                    color: white;
+                    font-weight: 700;
+                    padding: 10px;
+                    font-size: 25px;
+                }
+                span{
+                    color: rgb(255, 255, 255);
+                    font-weight: 650;
+                    padding: 10px;
+                }
+                p{
+                    color: rgb(212, 206, 206);
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+#store{
+    position: relative;
+    background-image: url(../image/269.jpg);
+    background-size: cover;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        background-color: black;
+        opacity: .8;
+    }
+    .crs{
+        position: relative;
+        z-index: 5;
+        h2{
+            color: white;
+            font-weight: 700;
+            img{
+                width: 10%;
+            }
+        }
+        .hr{
+            list-style: none;
+            li{
+                padding: 10px;
+                .br{
+                    color: red;
+                    text-decoration: none;
+                }
+                a{
+                    color: white;
+                    font-weight: 650;
+                    text-decoration: underline;
+                    &:hover{
+                        color: red;
+                        transition: 0.3s;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .stor{
+        position: relative;
+        z-index: 5;
+        .pads{
+            text-align: center;
+            a{
+                color: white;
+                font-weight: 700;
+                text-decoration: underline;
+                &:hover{
+                    text-decoration: none;
+                    color: red;
+                    transition: 0.3s;
+                }
+            }
+        }
+        .rot{
+            a{
+                color: red;
+                font-weight: 700;
+                text-decoration: underline;
+                display: none;
+                &:hover{
+                    text-decoration: none;
+                    transition: 0.3s;
+                }
+            }
+            span{
+                color: rgb(151, 150, 150);
+                font-weight: 650;
+            }
+        }
+    }
+}

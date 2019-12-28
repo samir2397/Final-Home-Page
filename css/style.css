@@ -497,4 +497,179 @@
 #status .stat .totam .sp span:hover {
   color: #fff;
 }
+
+#off {
+  background-color: black;
+}
+
+#off .offer {
+  text-align: center;
+}
+
+#off .offer h2 {
+  color: white;
+  font-weight: 700;
+}
+
+#off .offer h2 img {
+  width: 4%;
+}
+
+#off .offer p {
+  color: #8a8585;
+}
+
+#speciall {
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+#speciall .all .offersbl {
+  background-color: #111111;
+}
+
+#speciall .all .offersbl .free {
+  padding: 30px;
+}
+
+#speciall .all .offersbl .free h1 {
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#speciall .all .offersbl .free span {
+  color: #ff1414;
+  font-weight: 650;
+  padding: 10px;
+}
+
+#speciall .all .offersbl .free p {
+  color: #d4cece;
+  padding: 10px;
+}
+
+#speciall .all .offersrd {
+  background-color: #f62e2e;
+}
+
+#speciall .all .offersrd .free {
+  padding: 30px;
+}
+
+#speciall .all .offersrd .free h1 {
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 25px;
+}
+
+#speciall .all .offersrd .free span {
+  color: white;
+  font-weight: 650;
+  padding: 10px;
+}
+
+#speciall .all .offersrd .free p {
+  color: #d4cece;
+  padding: 10px;
+}
+
+#store {
+  position: relative;
+  background-image: url(../image/269.jpg);
+  background-size: cover;
+}
+
+#store::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background-color: black;
+  opacity: .8;
+}
+
+#store .crs {
+  position: relative;
+  z-index: 5;
+}
+
+#store .crs h2 {
+  color: white;
+  font-weight: 700;
+}
+
+#store .crs h2 img {
+  width: 10%;
+}
+
+#store .crs .hr {
+  list-style: none;
+}
+
+#store .crs .hr li {
+  padding: 10px;
+}
+
+#store .crs .hr li .br {
+  color: red;
+  text-decoration: none;
+}
+
+#store .crs .hr li a {
+  color: white;
+  font-weight: 650;
+  text-decoration: underline;
+}
+
+#store .crs .hr li a:hover {
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#store .stor {
+  position: relative;
+  z-index: 5;
+}
+
+#store .stor .pads {
+  text-align: center;
+}
+
+#store .stor .pads a {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#store .stor .pads a:hover {
+  text-decoration: none;
+  color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#store .stor .rot a {
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  display: none;
+}
+
+#store .stor .rot a:hover {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#store .stor .rot span {
+  color: #979696;
+  font-weight: 650;
+}
 /*# sourceMappingURL=style.css.map */
