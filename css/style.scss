@@ -808,7 +808,6 @@
         padding-top: 30px;
     }
     ul{
-        display: flex;
         padding-top: 15px;
         li{
             list-style: none;
@@ -854,6 +853,25 @@
 
             }  
         }
+        }
+    }
+    #footer{
+        padding-bottom: 25px;
+    }
+    #end{
+        p{
+            text-align: center;
+        }
+        .txt{
+            text-align: center; 
+        }
+    }
+    #top{
+        h1{
+            font-size: 60px;
+        }
+        h2{
+            font-size: 60px;
         }
     }
 }

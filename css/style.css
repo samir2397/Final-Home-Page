@@ -992,9 +992,6 @@
 }
 
 #end ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 15px;
 }
 
@@ -1046,6 +1043,21 @@
   }
   #header .menu ul li a {
     color: #181717;
+  }
+  #footer {
+    padding-bottom: 25px;
+  }
+  #end p {
+    text-align: center;
+  }
+  #end .txt {
+    text-align: center;
+  }
+  #top h1 {
+    font-size: 60px;
+  }
+  #top h2 {
+    font-size: 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */
